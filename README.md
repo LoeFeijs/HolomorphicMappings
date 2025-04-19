@@ -13,3 +13,6 @@ Python 3.9 (www.python.org)
 Numpy (https://numpy.org) 
 Matplotlib (https://matplotlib.org) 
 Numba (https://numba.pydata.org/)
+
+How to run (this is Loe's example; choose your own python folder):
+C:\Users\LFEIJS\AppData\Local\Programs\Python\Python39\python.exe garment.py
