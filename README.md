@@ -64,7 +64,7 @@ which means that the button is enabled. After the last button, i.e. Svg, a new f
 * The polynomial which defines cubic Béziers is _polynom inside bezier.py.
 * The predefined contour is defined in vierkant_define inside contour.py.
 * The interpolation to get pot values everywhere from a discrete array is in intpol2 inside field.py.
-* The relaxation algorithm is in the function compute_pot inside field.py.
+* The relaxation algorithm is in the function compute_pot inside field.py (for the Neumann condition, thanks Yohan Yee, github.com/yohanyee/laplace-relaxation).
 * The subdivision of scaffold lines based on potential is electrify_aut in scaffold.py.
 * The steepest descent procedure is in _find_fieldline_half in field.py.
 * The intersection of a found field line and found equipotential line is intersect in polyline.py (thanks Paul Bourke, paulbourke.net/geometry).
