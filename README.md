@@ -71,6 +71,6 @@ which means that the button is enabled. After the last button, i.e. Svg, a new f
 * The intersection of a found field line and found equipotential line is intersect in polyline.py (thanks Paul Bourke, paulbourke.net/geometry).
 * The turtles which draw the motifs are defined in a class Turtle in turtle.py. 
 * The initialisation of turtles is __init__(self,axes,z_ini,morph) where morph is a morphing function.
-* The two motifs supported are laurentius_lab and pied-de-poule (blocks 1,b,c, and d) are defined in turtle language inside motif.py.
+* The two motifs supported are laurentius_lab and pied-de-poule (blocks 1,b,c, and d) are defined in turtle language inside motif.py. To change the motif, go to lines 515 and 517 in garment.py, where the True and False of the two walrus flags could be interchanged.
 * The bilinear interpolation to map motifs into grid cells is grid2morph inside grid.py.
 
