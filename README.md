@@ -61,15 +61,13 @@ which means that the button is enabled. After the last button, i.e. Svg, a new f
 
 # Code highlights
 
-# Code highlights
-
 * The polynomial which defines cubic Béziers is _polynom inside bezier.py.
 * The predefined contour is defined in vierkant_define inside contour.py.
 * The interpolation to get pot values everywhere from a discrete array is in intpol2 inside field.py.
 * The relaxation algorithm is in the function compute_pot inside field.py.
 * The subdivision of scaffold lines based on potential is electrify_aut in scaffold.py.
 * The steepest descent procedure is in _find_fieldline_half in field.py.
-* The intersection of a found field line and found equipotential line is intersect in polyline.py.
+* The intersection of a found field line and found equipotential line is intersect in polyline.py (thanks Paul Bourke, paulbourke.net/geometry).
 * The turtles which draw the motifs are defined in a class Turtle in turtle.py. 
 * The initialisation of turtles is __init__(self,axes,z_ini,morph) where morph is a morphing function.
 * The two motifs supported are laurentius_lab and pied-de-poule (blocks 1,b,c, and d) are defined in turtle language inside motif.py.
