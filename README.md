@@ -37,6 +37,7 @@ Yet, these experiments have made the code extra complex, for example the field l
 # User interface
 Once the inital contour is shown, use the mouse for dragging the
 end points and the handles of the Bézier lines of the contour.
+If the contour lines are changed, do not forget to put the ends of the scaffold lines back so they are ON the contour.
 Computing potentials etc. should begin after that.
 
 The user interface has 9 buttons, in practice these have
