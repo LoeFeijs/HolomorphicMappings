@@ -24,7 +24,7 @@ C:\Users\LFEIJS\AppData\Local\Programs\Python\Python39\python.exe garment.py\
 # Where to find more information?
 See the Bridges2025 paper (forthcoming)
 and the summplement in the online 2025  Bridges archive (forthcoming).
-From july 16th, 2025 these should be on https://archive.bridgesmathart.org/2025
+From july 16th, 2025 onward, the paper and the supplement should be on https://archive.bridgesmathart.org/2025
 
 # Limitations
 No options for adding anchors or control points are provided, the contour stays four-sided (in the code this is mentioned as "VIERKANT").
